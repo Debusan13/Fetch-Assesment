@@ -73,3 +73,19 @@ A simple long list that meets all the project requirements. The code is relative
 - https://calvinw.medium.com/using-urlsession-to-retrieve-json-in-swift-1-getting-started-d929f3a49c67
 - https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/
 - https://www.hackingwithswift.com/books/ios-swiftui/working-with-identifiable-items-in-swiftui
+# Update from Fetch
+I didn't get the internship, but I am leaving this up as a sort of lesson to myself and for anyone who might see this. I really commend Fetch for actually sending me a detailed response on what I did correctly and incorrectly in my application.
+
+## Response from Fetch
+
+> What went well: 
+>
+> - A very descriptive and well written ReadMe file on Github. As software developers, we write documentation all the time. Knowing how to properly document the written code is a great skill to have. 
+> - Although the project was very simple, the candidate still followed good SwiftUI principle: Combining smaller views to construct bigger views. 
+ >
+>What could have gone better: 
+>
+> - Separation of concerns: ContentView is doing a few things in the project. It is describing what should be presented on the screen, it is making network calls, it is sorting the items. Software developers are always in maintenance mode, and having things separated makes maintenance easier. 
+> - Error handling: When network call succeeds, a list of items is displayed. But when it fails, the UX could have been better. Displaying an alert or some empty state view could help use understand what is going on. 
+
+I think that it is interesting that what I identified as potential improvements were, in fact, why I didn't do well on the assignment.
